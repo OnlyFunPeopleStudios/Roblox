@@ -1,0 +1,48 @@
+# Roblox/Studio
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+place.rbxl
+place.rbxlx
+
+# Rojo
+/default.project.json.lock
+.rojo/
+
+# OpenCode
+.opencode/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets/Credentials - NUNCA commitear
+*.key
+*.pem
+*.env
+.env
+.env.local
+config.json
+secrets/
+credentials/
+AuthKey-*.json
+
+# Build/Temp
+build/
+dist/
+temp/
+tmp/
+*.tmp
+
+# Roblox specific
+# (No excluir archivos fuente .luau/.lua necesarios para el proyecto)
